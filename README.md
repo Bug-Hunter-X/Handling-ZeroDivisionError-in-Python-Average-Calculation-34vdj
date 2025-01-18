@@ -1,0 +1,3 @@
+This repository contains a simple Python function that calculates the average of a list of numbers.  It demonstrates a common error that can arise when calculating averages: the `ZeroDivisionError` that happens when attempting to divide by zero. 
+The `bug.py` file shows a basic implementation without proper error handling, highlighting this error. The `bugSolution.py` demonstrates a correct implementation with a solution to avoid the `ZeroDivisionError`.
+The solution handles edge cases such as empty lists and lists containing only zeros.
